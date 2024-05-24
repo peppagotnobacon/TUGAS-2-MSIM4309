@@ -1,0 +1,76 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    color:rgb(63, 15, 53);
+}
+body{
+    background-image: url('iPhone\ X\ Wallpapers\ Photo.jpeg');
+    background-size: cover;
+}
+#container{
+    background-color: rgba(245, 210, 171, 0.2);
+    box-shadow: 0 4px 30px rgba(60, 64, 66, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    width: 70%;
+    padding: 100px 100px;
+    padding-top: 20px;
+    margin: 100px auto;
+    justify-content: center;
+    text-align: center;
+}
+#judul{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    color:rgb(63, 15, 53);
+}
+#bag1{
+    width: 50%;
+    height: 80%;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 100px 50px;
+}
+button{
+    color: antiquewhite;
+    font-size: large;
+    display: block;
+    padding: 20px 80px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color:rgb(63, 15, 53);
+    border: none;
+    box-shadow: 0 4px 30px rgba(60, 64, 66, 0.2);
+}
+button:hover{
+    cursor: pointer;
+}
+input:hover{
+    cursor: pointer;
+}
+input{
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+label{
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.orange{
+    color: orange;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: rgb(196, 178, 13);
+}
+.blue{
+    color: blue;
+}
+.reset{
+    color: black;
+}

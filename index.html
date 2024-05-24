@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 2 - PEMROGRAMAN BERBASIS WEB</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1 id="judul">
+            {{judul}}
+        </h1>
+        <section id="bag1">
+            <h1 id="konten" :class = 'warna'>
+                {{isiPesan}}
+            </h1>
+        </section>
+        <section>
+           <!--Bagian ini untuk tombol radio-->
+            <input type="radio" name="color" id="orange" value="orange" v-model="warna" >
+            <label for="orange">Orange</label>
+            <input type="radio" name="color" id="blue" value="blue" v-model="warna" >
+            <label for="blue">Blue</label>
+            <input type="radio" name="color" id="red" value="red" v-model="warna" >
+            <label for="red">Red</label>
+            <input type="radio" name="color" id="yellow" value="yellow" v-model="warna" >
+            <label for="yellow">Yellow</label>
+        
+
+            <!--Elemen untuk tombol reset-->
+            <button @click="resetBttn">Reset</button> 
+        </section>
+            
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
